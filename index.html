@@ -48,6 +48,15 @@
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-156158013-2');
+    var mail = new Audio ()
+    mail.src='audio/gies.mp4'
+  </script>
   <style>
     #more1 {display: none;}
     #more2 {display: none;}
@@ -247,9 +256,13 @@
 
             <div class="row">
               <div class="col-md-12">
-                <p class="mb-4 pb-0">Press the button to watch my story</p>
-                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
-                   data-autoplay="true"></a>
+                <p class="mb-4 pb-0">Press the button to hear promises to you</p>
+                <!-- <div class="vdo-btn">
+                  <a class="video-play-btn "
+                    onclick="mail.paused ? mail.play() : mail.pause(); $(this).children('i').toggleClass('fa-play fa-pause');">
+                    <i class="fas fa-play"></i></a>
+                </div> -->
+                <a class="play-btn mb-4" onclick="mail.paused ? mail.play() : mail.pause(); $(this).children('i').toggleClass('fa-play fa-pause');"></a>
                 <a href="vote.html" class="about-btn scrollto">How to vote for Gisèle & Abhiswetha</a><br>
               </div>
             </div>
@@ -336,7 +349,7 @@
         <div class="row">
           <div class="col-lg-6">
             <h2>Gisèle Scanlon</h2>
-            <h3>President of the GSU</h3>
+            <!-- <h3>President of the GSU</h3> -->
             <p style="text-align: justify;">My experience as GSU President working with and for you, shaped my ‘I CARE’ philosophy.
               As your President again, I will continue to develop Innovative solutions, create online and offline
               Community spaces, promote Accessibility of services, support Research and advocate for

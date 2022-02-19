@@ -636,10 +636,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# About Section
+# Biography Section
 --------------------------------------------------------------*/
 
-#about {
+#Biography {
   background: url("../img/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
@@ -648,7 +648,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 40px 0;
 }
 
-#about:before {
+#Biography:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
@@ -658,14 +658,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#about h2 {
+#Biography h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
 }
 
-#about h3 {
+#Biography h3 {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -673,7 +673,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#about p {
+#Biography p {
   font-size: 18px;
   margin-bottom: 20px;
   color: #fff;
@@ -775,6 +775,99 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
+
+/*--------------------------------------------------------------
+# Quotes Section
+--------------------------------------------------------------*/
+
+.testimonial{
+  text-align: center;
+  padding: 85px 50px 45px 70px;
+  margin: 70px 15px 35px;
+  background: #f9f9f9;
+  box-shadow: 8px 4px 0 0 #0071E3;
+  position: relative;
+}
+.testimonial .pic{
+  width: 120px;
+  height: 120px;
+  border: 5px solid #0071E3;
+  margin: 0 auto;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  right: 0;
+}
+.testimonial .pic img{
+  width: 100%;
+  height: auto;
+}
+.testimonial .description{
+  font-size: 15px;
+  color: #757575;
+  line-height: 27px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.testimonial .description:before{
+  content: "\f10d";
+  font-family: "FontAwesome";
+  font-size: 32px;
+  color: #0071E3;
+  position: absolute;
+  top: -15px;
+  left: -35px;
+}
+.testimonial .testimonial-profile{
+  position: relative;
+  margin: 20px 0 10px 0;
+}
+.testimonial .testimonial-profile:after{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #0071E3;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+}
+.testimonial .title{
+  display: inline-block;
+  font-size: 18px;
+  color: #4a5184;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.testimonial .post{
+  display: inline-block;
+  font-size: 15px;
+  color: #757575;
+  text-transform: capitalize;
+}
+.owl-theme .owl-controls{
+  margin-top: 10px;
+}
+.owl-theme .owl-controls .owl-page span{
+  background: #5e5f5f;
+  opacity: 1;
+  transition: all 0.4s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+  background: #0071E3;
+}
+.owl-theme .owl-controls .owl-page.active span{
+  width: 22px;
+  height: 12px;
+}
+/*--------------------------------------------------------------
+# Quotes Section
+--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Team Section
@@ -1503,20 +1596,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# supporters Section
+# social Section
 --------------------------------------------------------------*/
 
-#supporters {
+#social {
   padding: 60px 0;
 }
 
-#supporters .supporters-wrap {
+#social .social-wrap {
   border-top: 1px solid #e0e5fa;
   border-left: 1px solid #e0e5fa;
   margin-bottom: 30px;
 }
 
-#supporters .supporter-logo {
+#social .supporter-logo {
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1534,12 +1627,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 160px;
 }
 
-#supporters .supporter-logo:hover img {
+#social .supporter-logo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-#supporters img {
+#social img {
   transition: all 0.4s ease-in-out;
 }
 

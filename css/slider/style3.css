@@ -33,7 +33,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #0796fe;
+    background: #0071E3;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -55,7 +55,7 @@ a:focus {
 }
 
 .back-to-top:hover i {
-    color: #0796fe;
+    color: #0071E3;
 }
 
 @media (min-width: 992px) {
@@ -139,7 +139,7 @@ a:focus {
 }
 
 .blog .blog-meta i {
-    color: #0796fe;
+    color: #0071E3;
     margin: 0 2px 0 10px;
 }
 
@@ -161,7 +161,7 @@ a:focus {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #0796fe;
+    color: #0071E3;
     transition: .3s;
 }
 
@@ -176,7 +176,7 @@ a:focus {
     height: 2px;
     top: 10px;
     left: 0;
-    background: #0796fe;
+    background: #0071E3;
 }
 
 .blog .owl-nav {
@@ -194,7 +194,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #0796fe;
+    color: #0071E3;
     font-size: 25px;
     transition: .3s;
 }
@@ -219,7 +219,7 @@ a:focus {
     width: 80px;
     height: 3px;
     top: 11px;
-    background: #0796fe;
+    background: #0071E3;
     transition: .3s;
 }
 
@@ -252,7 +252,7 @@ a:focus {
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-    color: #0796fe;
+    color: #0071E3;
     background: #092a49;
 }
 

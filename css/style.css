@@ -2156,6 +2156,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*******************************/
 /********** About CSS **********/
 /*******************************/
+.section-container{padding:80px 0}.section-container-spacer{margin-bottom:30px}
+.section-half-background-image-container{position:relative;background-color:#eee;padding:80px 0 100px}
+.section-half-background-image-container .image-column{display:none}
+@media (min-width:600px) {
+  .section-half-background-image-container .image-column{position:absolute;display:block;top:0;z-index:0;bottom:0;width:35%;background-size:cover;background-repeat:no-repeat;background-position:top}}.section-half-background-image-container .text-column{padding:50px;position:relative;z-index:3}
+.containerAbout{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (max-width: 600px){
+  .col-md-4-about{
+    background-image: url('../img/team/GiseleRec.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.col-md-4-about{
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 600px){
+.col-md-offset-4-about{
+  margin-left:33.33333%
+}
+  .col-md-4-about{
+    width:33.33333%;
+  }
+}
 #Biography p {
   font-size: 18px;
   margin-bottom: 20px;

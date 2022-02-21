@@ -2160,7 +2160,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-half-background-image-container{position:relative;background-color:#eee;}
 .section-half-background-image-container .image-column{display:none}
 @media (min-width:600px) {
-  .section-half-background-image-container .image-column{position:absolute;display:block;top:0;z-index:0;bottom:0;width:35%;background-size:cover;background-repeat:no-repeat;background-position:top}}.section-half-background-image-container .text-column{padding:50px;position:relative;}
+  .section-half-background-image-container .image-column{position:absolute;display:block;top:0;z-index:0;bottom:0;width:35%;background-size:cover;background-repeat:no-repeat;background-position:top;}
+  .text-column{padding:50px;position:relative;background: #423664;}
+}
+
+.section-half-background-image-container .text-column{position:relative;}
 .containerAbout{
   margin-right: auto;
   margin-left: auto;
@@ -2169,9 +2173,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (max-width: 600px){
   .col-md-4-about{
-    background-image: url('../img/team/GiseleRec.jpg');
+    background-image: linear-gradient(180deg,rgba(118,103,157,0),#423664 50%),url('../img/team/GiseleRec.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150%;
+    background-position: top;
+    padding: 100% 40px 20px;
   }
 }
 .col-md-4-about{
@@ -2188,32 +2194,35 @@ body.mobile-nav-active #mobile-nav-toggle {
     width:33.33333%;
   }
 }
-#Biography p {
+#MeetGisele h3 {
+  color: #FFF;
+}
+#MeetGisele p {
   font-size: 18px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #FFF;
 }
-#Biography {
+#MeetGisele {
   position: relative;
   width: 100%;
   padding: 60px 0;
 }
 
-#Biography .section-header {
+#MeetGisele .section-header {
   margin-bottom: 30px;
   margin-left: 0;
 }
 
-#Biography .about-img {
+#MeetGisele .about-img {
   width: 100%;
   height: 60vh;
 }
 
-#Biography .about-tab {
+#MeetGisele .about-tab {
   width: 100%;
 }
 
-#Biography .about-tab .nav.nav-pills .nav-link {
+#MeetGisele .about-tab .nav.nav-pills .nav-link {
   padding: 8px;
   font-weight: 600;
   background: none;
@@ -2222,24 +2231,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: none;
 }
 
-#Biography .about-tab .nav.nav-pills .nav-link:hover,
-#Biography .about-tab .nav.nav-pills .nav-link.active {
+#MeetGisele .about-tab .nav.nav-pills .nav-link:hover,
+#MeetGisele .about-tab .nav.nav-pills .nav-link.active {
   color: #FDBE33;
   padding-bottom: 7px;
   border-bottom: 3px solid #FDBE33;
 }
 
-#Biography .about-tab .tab-content {
+#MeetGisele .about-tab .tab-content {
   padding: 15px 0 0 0;
   background: transparent;
 }
 
-#Biography .about-tab .tab-content .container {
+#MeetGisele .about-tab .tab-content .container {
   padding: 0;
 }
 
 @media (max-width: 991.98px) {
-  #Biography .section-header {
+  #MeetGisele .section-header {
     margin-top: 30px;
   }
 }

@@ -2161,7 +2161,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-half-background-image-container .image-column{display:none}
 @media (min-width:600px) {
   .section-half-background-image-container .image-column{position:absolute;display:block;top:0;z-index:0;bottom:0;width:35%;background-size:cover;background-repeat:no-repeat;background-position:top;}
-  .text-column{padding:50px;position:relative;background: #423664;}
+  .text-column{padding-top:50px;position:relative;background: #423664;}
 }
 
 .section-half-background-image-container .text-column{position:relative;}
@@ -2183,8 +2183,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .col-md-4-about{
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 @media (min-width: 600px){
 .col-md-offset-4-about{
@@ -2195,6 +2195,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 #MeetGisele h3 {
+  color: #FFF;
+}
+#MeetGisele p {
+  font-size: 18px;
+  margin-bottom: 20px;
   color: #FFF;
 }
 #MeetGisele p {
@@ -2220,6 +2225,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #MeetGisele .about-tab {
   width: 100%;
+  margin-top: 40px;
+  background-color: #FFFFFF;
+}
+
+#MeetGisele .a{
+  color: #423664;
 }
 
 #MeetGisele .about-tab .nav.nav-pills .nav-link {
@@ -2241,6 +2252,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #MeetGisele .about-tab .tab-content {
   padding: 15px 0 0 0;
   background: transparent;
+  margin: 40px;
 }
 
 #MeetGisele .about-tab .tab-content .container {

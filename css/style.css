@@ -2313,7 +2313,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #video-container  {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 100vh;
   overflow: hidden;
   z-index: 1;
 }

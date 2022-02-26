@@ -330,21 +330,73 @@ button {
      padding-right: 0;
 }
 
-.titlepage {
-     padding-bottom: 40px;
-     text-align: left;
+@media (min-width: 768px) {
+     .titlepage {
+          padding-bottom: 40px;
+          text-align: left;
 
+     }
+
+     .titlepage h1 {
+          font-size: 71px;
+          letter-spacing: -0.18rem;
+          color: #FFF;
+          line-height: 74px;
+          font-weight: bold;
+     }
+
+     .titlepage h2 {
+          color: #FFFFFF;
+          font-size: 40px;
+     }
+     .titlepage h3 {
+          margin-bottom: 50px;
+          font-size: 30px;
+          color: #FFFFFF;
+     }
+     .titlepage h4 {
+          color: #FFFFFF;
+     }
 }
 
-.titlepage h1 {
-     font-size: 88px;
-     letter-spacing: -.3125rem;
-     color: #3e3e3e;
-     line-height: 68px;
-     font-weight: bold;
-     margin-left: 15px;
-}
+@media (max-width: 768px) {
+     .titlepage {
+          padding-bottom: 40px;
+          text-align: left;
 
+     }
+
+     .titlepage h1 {
+          font-size: 92px;
+          letter-spacing: -0.18rem;
+          color: #000;
+          line-height: 81px;
+          font-weight: bold;
+          margin-bottom: 45px;
+     }
+
+     .titlepage h2 {
+          color: rgb(0,113,227);
+          font-size: 33px;
+          line-height: 33px;
+     }
+     .titlepage h3 {
+
+          font-size: 30px;
+          color: rgb(0,113,227);
+          line-height: 17px;
+          margin-bottom: 30px;
+     }
+     .titlepage h4 {
+          color: #000;
+          font-size: 18px;
+          font-weight: bold;
+          padding-right: 110px;
+          line-height: 17px;
+          padding-bottom: 0px;
+          line-height: 22px;
+     }
+}
 .d_flex {
      display: flex;
      align-items: center;

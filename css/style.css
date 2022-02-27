@@ -2432,8 +2432,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: left;!important;
     width: 100%;
   }
-  .inside-content .white-border-button {
-    margin-top: 30px;
+  .white-border-button {
+    margin-top: 60px;
   }
   .white-border-button a {
     font-size: 17px;
@@ -2449,6 +2449,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   }
   .white-border-button a:hover {
+    color: rgba(0,0,0,0.7);
+    border: 1px solid #000;
+  }
+
+  .white-border-button2 {
+    margin-top: 60px;
+  }
+  .white-border-button2 a {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 20px;
+    border: 1px solid #ffeaea;
+    border-radius: 24px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: all 0.3s;
+    background-color: rgb(217,48,37);
+
+  }
+  .white-border-button2 a:hover {
     color: rgba(0,0,0,0.7);
     border: 1px solid #000;
   }
@@ -2470,6 +2491,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .inside-content .white-border-button {
     margin-top: 30px;
   }
+
   .white-border-button a {
     font-size: 17px;
     font-weight: 700;
@@ -2483,6 +2505,26 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: rgb(0 113 227);
   }
   .white-border-button a:hover {
+    color: rgba(0,0,0,0.7);
+    border: 1px solid #000;
+  }
+  .white-border-button2 {
+    margin-top: 60px;
+  }
+  .white-border-button2 a {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 20px;
+    border: 1px solid #ffeaea;
+    border-radius: 24px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: all 0.3s;
+    background-color: rgb(217,48,37);
+
+  }
+  .white-border-button2 a:hover {
     color: rgba(0,0,0,0.7);
     border: 1px solid #000;
   }

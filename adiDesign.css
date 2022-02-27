@@ -1,7 +1,7 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
   /* Float four columns side by side */
-  .column {
+  .columnD {
     float: left;
     width: 25%;
     padding: 0 10px;
@@ -19,7 +19,7 @@
   
   /* Responsive columns */
   @media screen and (max-width: 600px) {
-    .column {
+    .columnD {
       width: 100%;
       display: block;
       margin-bottom: 20px;

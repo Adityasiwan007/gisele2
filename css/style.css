@@ -125,7 +125,7 @@ h6 {
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+  background-color: #FFF;
 }
 
 /*--------------------------------------------------------------
@@ -2732,7 +2732,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 32px 20px 70px 20px;
   min-height: 270px;
   border-radius: 43px;
-  background-color: rgb(239,239,239);
 }
 
 .card-blog2 .header2 {
@@ -2743,8 +2742,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   display: inline-block;
   margin-right: 6px;
-  width: 135px;
-  height: 135px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: #d3d0e4;
   overflow: hidden;
@@ -2771,22 +2770,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .card-blog2 .post-title2 {
-  margin-bottom: 8px;
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(0,113,227);
-
-}
-
-.card-blog2 .post-excerpt22 {
-  font-size: 18px;
-  color: #000000;
   font-weight: bold;
-  margin-top: 30px;
 }
 
 .card-blog2 .post-excerpt2 {
   font-size: 18px;
   color: #000000;
+  line-height: 22px;
 }
 
 .card-blog2 .footer2 {

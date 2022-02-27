@@ -333,11 +333,12 @@ button {
      }
 
      .titlepage h1 {
-          font-size: 71px;
-          letter-spacing: -0.18rem;
+          font-size: 88px;
+          letter-spacing: 0.0875rem;
           color: #FFF;
-          line-height: 74px;
+          line-height: 68px;
           font-weight: bold;
+          padding-top: 10px;
      }
 
      .titlepage h2 {
@@ -383,7 +384,7 @@ button {
           margin-bottom: 30px;
      }
      .titlepage h4 {
-          color: #000;
+          color: #FFF;
           font-size: 18px;
           font-weight: bold;
           padding-right: 110px;
@@ -422,6 +423,7 @@ button {
 
 .test_box {
      text-align: left;
+     margin-top: 10px;
 }
 
 .padd_rightt0 {
@@ -436,7 +438,7 @@ button {
      font-size: 88px;
      color: #2bcc91;
      line-height: normal;
-     letter-spacing: -.3125rem;
+     letter-spacing: 0.0875rem;
      display: inline-block;
      font-weight: bold;
 }

@@ -2799,3 +2799,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: row;
   align-items: center;
 }
+
+
+#donate_card {
+  background-color: 0071E3;
+  margin: auto;
+}

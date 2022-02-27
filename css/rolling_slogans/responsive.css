@@ -296,7 +296,7 @@
 }
 @media (max-width: 768px) {
     .indextext{
-        margin-left: 30px;
+        padding-left: 30px;
         margin-top: 238px;
     }
     .header {
@@ -333,6 +333,7 @@
         letter-spacing: -.0075rem;
         color:#FFF;
         font-weight: bold;
+        padding-top: 7px;
     }
     .testimonial_Carousel .test_box h1 {
         font-size: 48px;

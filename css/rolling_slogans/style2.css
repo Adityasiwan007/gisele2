@@ -27,7 +27,7 @@ html {
 
 body {
      color: #666666;
-     font-size: 14px;
+     font-size: 18px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
@@ -119,12 +119,6 @@ ol {
      list-style: none;
 }
 
-p {
-     margin: 0px;
-     font-weight: 300;
-     font-size: 15px;
-     line-height: 24px;
-}
 
 a {
      color: #000;

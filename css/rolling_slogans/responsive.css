@@ -293,6 +293,10 @@
         width: 275px;
         padding-right: 0px;
     }
+    .indextext{
+        padding-left: 30px;
+        margin-top: 170px;
+    }
 }
 @media (max-width: 768px) {
     .indextext{

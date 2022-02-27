@@ -2472,14 +2472,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   .white-border-button a {
     font-size: 17px;
     font-weight: 700;
-    color: #000;
+    color: #fff;
     padding: 12px 20px;
-    border: 1px solid #fff;
+    border: 1px solid #ffeaea;
     border-radius: 24px;
     letter-spacing: 0.5px;
     text-decoration: none;
     transition: all 0.3s;
-    background-color: #fff;
+    background-color: rgb(0 113 227);
   }
   .white-border-button a:hover {
     color: rgba(0,113,227,0.7);
@@ -2872,4 +2872,158 @@ body.mobile-nav-active #mobile-nav-toggle {
 #donate_card {
   background-color: 0071E3;
   margin: auto;
+}
+
+/***********************************************************************************************/
+/* =Hero section */
+/***********************************************************************************************/
+
+#hero-section {
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.home-hero:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.home-hero {
+  background: url('../images/hero-bg/home.jpg');
+  background-size: cover;
+}
+
+/***********************************************************************************************/
+/* =Hero section-2 */
+/***********************************************************************************************/
+
+.home-hero-2:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.home-hero-2 {
+  background: url('../images/hero-bg/home-2.jpg');
+  background-size: cover;
+}
+
+/***********************************************************************************************/
+/* =Hero section-3 */
+/***********************************************************************************************/
+
+.home-hero-3:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.home-hero-3 {
+  background: url('../images/hero-bg/home-3.jpg');
+  background-size: cover;
+}
+
+/***********************************************************************************************/
+/* =Hero section-4 */
+/***********************************************************************************************/
+
+.home-hero-4:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.home-hero-4 {
+  background: url('../images/hero-bg/home-4.jpg');
+  background-size: cover;
+}
+
+/***********************************************************************************************/
+/* =Landing page*/
+/***********************************************************************************************/
+
+.landing-hero:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.landing-hero {
+  background: url('../img/team/Gisele.png');
+  height: 100vh;
+  background-size: cover;
+}
+/***********************************************************************************************/
+/* =Home hero */
+/***********************************************************************************************/
+
+.hero-content {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero-content h1, p.hero {
+  color: #fff;
+}
+
+.div-line {
+  width: 50px;
+  background-color: #fff;
+  height: 3px;
+  margin: 20px auto;
+}
+
+p.hero {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  color: #fff;
+  font-size: 25px;
+  line-height: 32px;
+  display: block;
+  margin-top: 20px;
+}
+
+.hero-btn {
+  margin-top: 50px;
+}
+
+ul.caption-slides {
+  padding-left: 0;
+}
+
+ul.caption-slides li {
+  text-align: center;
 }

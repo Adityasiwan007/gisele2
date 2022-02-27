@@ -15,7 +15,7 @@
 }
 
 /*Pen code from this point on*/
-.btn {
+.btnS {
   clear:both;
   white-space:nowrap;
   font-size:.8em;
@@ -29,15 +29,15 @@
   overflow:hidden
 }
 
-.btn:hover {
+.btnS:hover {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
 }
 
-.btn:focus {
+.btnS:focus {
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
-.btn > span,.btn-icon > i {
+.btnS > span,.btnS-icon > i {
   float:left;
   padding:13px;
   -webkit-transition:all .5s;
@@ -46,18 +46,18 @@
   line-height:1em
 }
 
-.btn > span {
+.btnS > span {
   padding:14px 18px 16px;
   white-space:nowrap;
   color:#FFF;
   background:#b8b8b8
 }
 
-.btn:focus > span {
+.btnS:focus > span {
   background:#9a9a9a
 }
 
-.btn-icon > i {
+.btnS-icon > i {
   border-radius:5px 0 0 5px;
   position:relative;
   width:13px;
@@ -67,7 +67,7 @@
   background:#212121
 }
 
-.btn-icon > i:after {
+.btnS-icon > i:after {
   content:"";
   border:8px solid;
   border-color:transparent transparent transparent #222;
@@ -76,56 +76,56 @@
   right:-15px
 }
 
-.btn-icon:hover > i,.btn-icon:focus > i {
+.btnS-icon:hover > i,.btnS-icon:focus > i {
   color:#FFF
 }
 
-.btn-icon > span {
+.btnS-icon > span {
   border-radius:0 5px 5px 0
 }
 
 /*Facebook*/
-.btn-facebook:hover > i,.btn-facebook:focus > i {
+.btnS-facebook:hover > i,.btnS-facebook:focus > i {
   color:#3b5998
 }
 
-.btn-facebook > span {
+.btnS-facebook > span {
   background:#3b5998
 }
 
 /*Twitter*/
-.btn-twitter:hover > i,.btn-twitter:focus > i {
+.btnS-twitter:hover > i,.btnS-twitter:focus > i {
   color:#55acee
 }
 
-.btn-twitter > span {
+.btnS-twitter > span {
   background:#55acee
 }
 
 /*Google*/
-.btn-googleplus:hover > i,.btn-googleplus:focus > i {
+.btnS-googleplus:hover > i,.btnS-googleplus:focus > i {
   color:#bc2a8d
 }
 
-.btn-googleplus > span {
+.btnS-googleplus > span {
   background:#bc2a8d
 }
 
 /*Pinterest*/
-.btn-pinterest:hover > i,.btn-pinterest:focus > i {
+.btnS-pinterest:hover > i,.btnS-pinterest:focus > i {
   color:#25D366
 }
 
-.btn-pinterest > span {
+.btnS-pinterest > span {
   background:#25D366
 }
 
 /*LinkedIn*/
-.btn-linkedin:hover > i,.btn-linkedin:focus > i {
+.btnS-linkedin:hover > i,.btnS-linkedin:focus > i {
   color:#007bb6
 }
 
-.btn-linkedin > span {
+.btnS-linkedin > span {
   background:#007bb6
 }
 

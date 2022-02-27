@@ -82,7 +82,8 @@
     mail.src='audio/gies.mp4'
   </script>
   <style>
-   
+
+    #more01{display: none;}
    #more1 {display: none;}
     #more2 {display: none;}
     #more3 {display: none;}
@@ -370,13 +371,35 @@
           <div class="body">
             <div class="post-title">"Gisèle challenges all inequality and works tirelessly on homelessness and policy. Ireland’s housing system needs to have the capacity to respond to need. We need this powerful voice for equality." </div>
             <div class="post-excerpt1">Ronan Lyons,</div>
-            <div class="post-excerpt"> Associate Professor in Economics, Trinity College Dublin. B.A., M.SC., M.LITT., M.A., (DUBL., OXON.), M.PHIL. (OXON.), D.PHIL. (OXON.) Research Associate at the Spatial Economics Research Centre in LSE and author of the DAFT.IE Reports on Ireland’s sale and rental housing market. Director of TRiSS, Board of HEA, HON Sec of SSISI.</div>
+            <div class="post-excerpt"> Associate Professor in Economics, Trinity College Dublin. B.A., M.SC., M.LITT., M.A.,
+              <span id="dots01">...</span><span id="more01">(DUBL., OXON.), M.PHIL. (OXON.), D.PHIL. (OXON.)
+              Research Associate at the Spatial Economics Research Centre in LSE and author of the DAFT.
+              IE Reports on Ireland’s sale and rental housing market.
+              Director of TRiSS, Board of HEA, HON Sec of SSISI.</span>
+              <button onclick="myFunction01()" id="myBtn01">Read more</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+    <script>
+        function myFunction01() {
+            var dots = document.getElementById("dots01");
+            var moreText = document.getElementById("more01");
+            var btnText = document.getElementById("myBtn01");
 
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
   <div class="container">
     <div class="section-header">
       <h2>Assentors</h2>

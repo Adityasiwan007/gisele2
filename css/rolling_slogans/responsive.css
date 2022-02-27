@@ -290,12 +290,14 @@
 }
 @media (min-width: 768px) {
     .carouselcare{
-        width: 295px;
+        width: 275px;
+        padding-right: 0px;
     }
 }
 @media (max-width: 768px) {
     .indextext{
         margin-left: 30px;
+        margin-top: 238px;
     }
     .header {
         padding: 30px 0px 0px 0px;
@@ -328,7 +330,7 @@
     .titlepage h1{
         font-size: 45px;
         line-height: 44px;
-        letter-spacing: -.1875rem;
+        letter-spacing: -.0075rem;
         color:#FFF;
         font-weight: bold;
     }

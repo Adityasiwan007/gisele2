@@ -327,13 +327,13 @@ button {
 
 @media (min-width: 768px) {
      .titlepage {
-          padding-bottom: 40px;
+          margin-bottom: 40px;
           text-align: left;
 
      }
 
      .titlepage h1 {
-          font-size: 88px;
+          font-size: 78px;
           letter-spacing: 0.0875rem;
           color: #FFF;
           line-height: 68px;
@@ -353,22 +353,44 @@ button {
      .titlepage h4 {
           color: #FFFFFF;
      }
+     .titlename h1{
+          font-size: 50px;
+     }
+     .titlename{
+          border-radius: 10px;
+          padding-right: 20px;
+          padding-left: 20px;
+          background-color: rgb(0,113,227);
+     }
 }
 
 @media (max-width: 768px) {
+
+     .titlename{
+          background-color: rgba(0,113,227,0.5);
+          border-radius: 10px;
+          padding-right: 10px;
+          padding-left: 10px;
+
+     }
+     .titlename h1{
+          font-size: 35px;
+     }
      .titlepage {
-          padding-bottom: 40px;
           text-align: left;
 
      }
+     .titlepage {
+          margin-bottom: 40px;
+          text-align: left;
 
+     }
      .titlepage h1 {
           font-size: 92px;
           letter-spacing: -0.18rem;
           color: #000;
           line-height: 81px;
           font-weight: bold;
-          margin-bottom: 45px;
      }
 
      .titlepage h2 {
@@ -435,7 +457,7 @@ button {
 }
 
 .testimonial_Carousel .test_box h1 {
-     font-size: 88px;
+     font-size: 83px;
      color: #2bcc91;
      line-height: normal;
      letter-spacing: 0.0875rem;

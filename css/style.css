@@ -2793,6 +2793,81 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-items: center;
 }
 
+.card-blog0 {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 32px 20px 70px 20px;
+  min-height: 270px;
+  border-radius: 43px;
+  background-color: rgb(239,239,239);
+}
+
+.card-blog0 .header0 {
+  margin-bottom: 16px;
+}
+
+.card-blog0 .avatar0 {
+  position: relative;
+  display: inline-block;
+  margin-right: 6px;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-color: #d3d0e4;
+  overflow: hidden;
+}
+
+.card-blog0 .avatar0 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-blog0 .entry-footer0 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card-blog0 .post-author0 {
+  font-weight: 500;
+  color: #645F88;
+}
+
+.card-blog0 .post-date0 {
+  font-size: 13px;
+  color: #B4B2C5;
+}
+
+.card-blog0 .post-title0 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: rgb(0,113,227);
+
+}
+
+.card-blog0 .post-excerpt00 {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.card-blog0 .post-excerpt0 {
+  font-size: 18px;
+  color: #000000;
+}
+
+.card-blog0 .footer0 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.avatar0 {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 #donate_card {
   background-color: 0071E3;

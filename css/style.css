@@ -2438,17 +2438,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   .white-border-button a {
     font-size: 17px;
     font-weight: 700;
-    color: #000;
+    color: #fff;
     padding: 12px 20px;
-    border: 1px solid #000;
+    border: 1px solid #ffeaea;
     border-radius: 24px;
     letter-spacing: 0.5px;
     text-decoration: none;
     transition: all 0.3s;
-    background-color: #fff;
+    background-color: rgb(0 113 227);
+
   }
   .white-border-button a:hover {
-    color: rgba(0,113,227,0.7);
+    color: rgba(0,0,0,0.7);
     border: 1px solid #000;
   }
 }
@@ -2482,7 +2483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: rgb(0 113 227);
   }
   .white-border-button a:hover {
-    color: rgba(0,113,227,0.7);
+    color: rgba(0,0,0,0.7);
     border: 1px solid #000;
   }
 }

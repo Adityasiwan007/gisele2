@@ -2771,8 +2771,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   display: block;
   margin: 0 auto;
-  padding: 32px 20px 70px 20px;
-  min-height: 270px;
+  padding: 32px 20px 40px 20px;
   border-radius: 43px;
 }
 

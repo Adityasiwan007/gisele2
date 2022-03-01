@@ -3018,7 +3018,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .landing-hero {
   background: url('../img/team/Gisele.png');
-  height: 105vh;
+  height: 125vh;
   background-size: cover;
 }
 /***********************************************************************************************/
@@ -3069,5 +3069,39 @@ ul.caption-slides li {
   text-align: center;
 }
 
+.section-container{padding:80px 0}
 
+.section-half-background-image-container{position:relative;background-color:#EFEBE7;padding:80px 0 100px}
+.section-half-background-image-container .image-column
+{
+  position:absolute;display:block;top:0;z-index:0;bottom:0;width:100%;
+  background-size:cover;background-repeat:no-repeat;background-position:top
+}
+@media (max-width:992px){
+  .image-column:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
 
+@media (min-width:992px)
+{
+  .section-half-background-image-container .image-column
+  {
+    position:absolute;display:block;top:0;z-index:0;bottom:0;width:66.666%;
+    background-size:cover;background-repeat:no-repeat;background-position:top
+  }
+}
+.section-half-background-image-container .text-column{position:relative;z-index:3}
+
+.text-column{position:relative;z-index:3}.section-label{display:none}@media (min-width:992px){.section-label{display:flex;color:#fff;font-size:7em;font-family:Abril Fatface,Times New Roman,Times,serif;position:absolute;left:50%;z-index:2;top:0;height:100%;text-transform:uppercase;align-items:center}.section-label p{width:260px;margin-left:-130px;word-break:break-all}}
+
+@media (min-width: 768px) {
+  .col-md-offset-4{margin-left:75%}
+}

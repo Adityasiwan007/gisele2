@@ -3094,7 +3094,7 @@ ul.caption-slides li {
 {
   .section-half-background-image-container .image-column
   {
-    position:absolute;display:block;top:0;z-index:0;bottom:0;width:66.666%;
+    position:absolute;display:block;top:0;z-index:0;bottom:0;width:63.666%;
     background-size:cover;background-repeat:no-repeat;background-position:top
   }
 }

@@ -87,6 +87,8 @@
     #more01{display: none;}
     #more02{display: none;}
     #more03{display: none;}
+    #more04{display: none;}
+    #more05{display: none;}
    #more1 {display: none;}
     #more2 {display: none;}
     #more3 {display: none;}
@@ -231,14 +233,7 @@
                                     <div class="carousel-item">
                                         <div class="carousel-caption">
                                             <div class="test_box">
-                                                <h1 style="color: #D93025">lobby</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="carousel-caption">
-                                            <div class="test_box">
-                                                <h1 style="color: #1A73E8">work</h1>
+                                                <h1 style="color: #D93025">work</h1>
                                             </div>
                                         </div>
                                     </div>
@@ -690,7 +685,7 @@
               <h2 style="font-size: 300%;">Endorsements</h2>
           </div>
           <div class="row my-5 card-blog-row">
-              <div class="col-md-6 col-lg-6 py-3 wow fadeInUp">
+              <div class="col-md-4 col-lg-4 py-3 wow fadeInUp">
                   <div class="card-blog0">
                       <div class="header0">
                           <div class="avatar0">
@@ -705,7 +700,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-md-6 col-lg-6 py-3 wow fadeInUp">
+              <div class="col-md-4 col-lg-4 py-3 wow fadeInUp">
                   <div class="card-blog0">
                       <div class="header0">
                           <div class="avatar0">
@@ -720,7 +715,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-md-6 col-lg-6 py-3 wow fadeInUp">
+              <div class="col-md-4 col-lg-4 py-3 wow fadeInUp">
                   <div class="card-blog0">
                       <div class="header0">
                           <div class="avatar0">
@@ -735,7 +730,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-md-6 col-lg-6 py-3 wow fadeInUp">
+              <div class="col-md-4 col-lg-4 py-3 wow fadeInUp">
                   <div class="card-blog">
                       <div class="header2">
                           <div class="avatar">
@@ -745,43 +740,89 @@
                       <div class="body">
                           <div class="post-title">"Gisèle’s encyclopaedic understanding of the Trinity community and use of services, bravery and commitment to social and economic justice, all guarantee she will achieve true change for us all." </div>
                           <div class="post-excerpt1">Geraldine Ruane,</div>
-                          <div class="post-excerpt">Chief Executive the RDS, Former Chief Operating Officer (2013-2021), Trinity College Dublin. M.A., F.C.P.A.</div>
+                          <div class="post-excerpt">Chief Executive the RDS, Former Chief Operating<span id="dots04">...</span><span id="more04"> Officer (2013-2021), Trinity College Dublin. M.A., F.C.P.A.</span>
+                              <button onclick="myFunction04()" id="myBtn04">Read more</button></div></div>
+                      </div>
+                  </div>
+              <div class="col-md-4 col-lg-4 py-3 wow fadeInUp">
+                  <div class="card-blog">
+                      <div class="header2">
+                          <div class="avatar">
+                              <img src="img/imagesassentorsandendorsers/Assentors_Juliette_Hussey_Headshot.jpg" alt="Juliette Hussey Headshot">
+                          </div>
+                      </div>
+                      <div class="body">
+                          <div class="post-title">"She is passionate about education and her tenacity has led to change in many areas. She  will be a strong voice in the Seanad."</div>
+                          <div class="post-excerpt1">Professor Juliette Hussey,</div>
+                          <div class="post-excerpt">M.A., M.SC. (LOND), PH.D., F.T.C.D. Former Vice-President for Global Relations at TCD. Research lead at Trinity St. James’s Cancer Institute.</span></div>
                       </div>
                   </div>
               </div>
+              <script>
+                  function myFunction02() {
+                      var dots = document.getElementById("dots02");
+                      var moreText = document.getElementById("more02");
+                      var btnText = document.getElementById("myBtn02");
+
+                      if (dots.style.display === "none") {
+                          dots.style.display = "inline";
+                          btnText.innerHTML = "Read more";
+                          moreText.style.display = "none";
+                      } else {
+                          dots.style.display = "none";
+                          btnText.innerHTML = "Read less";
+                          moreText.style.display = "inline";
+                      }
+                  }
+                  function myFunction03() {
+                      var dots = document.getElementById("dots03");
+                      var moreText = document.getElementById("more03");
+                      var btnText = document.getElementById("myBtn03");
+
+                      if (dots.style.display === "none") {
+                          dots.style.display = "inline";
+                          btnText.innerHTML = "Read more";
+                          moreText.style.display = "none";
+                      } else {
+                          dots.style.display = "none";
+                          btnText.innerHTML = "Read less";
+                          moreText.style.display = "inline";
+                      }
+                  }
+                  function myFunction04() {
+                      var dots = document.getElementById("dots04");
+                      var moreText = document.getElementById("more04");
+                      var btnText = document.getElementById("myBtn04");
+
+                      if (dots.style.display === "none") {
+                          dots.style.display = "inline";
+                          btnText.innerHTML = "Read more";
+                          moreText.style.display = "none";
+                      } else {
+                          dots.style.display = "none";
+                          btnText.innerHTML = "Read less";
+                          moreText.style.display = "inline";
+                      }
+                  }
+                  function myFunction05() {
+                      var dots = document.getElementById("dots05");
+                      var moreText = document.getElementById("more05");
+                      var btnText = document.getElementById("myBtn05");
+
+                      if (dots.style.display === "none") {
+                          dots.style.display = "inline";
+                          btnText.innerHTML = "Read more";
+                          moreText.style.display = "none";
+                      } else {
+                          dots.style.display = "none";
+                          btnText.innerHTML = "Read less";
+                          moreText.style.display = "inline";
+                      }
+                  }
+              </script>
+
           </div>
-          <script>
-              function myFunction02() {
-                  var dots = document.getElementById("dots02");
-                  var moreText = document.getElementById("more02");
-                  var btnText = document.getElementById("myBtn02");
 
-                  if (dots.style.display === "none") {
-                      dots.style.display = "inline";
-                      btnText.innerHTML = "Read more";
-                      moreText.style.display = "none";
-                  } else {
-                      dots.style.display = "none";
-                      btnText.innerHTML = "Read less";
-                      moreText.style.display = "inline";
-                  }
-              }
-              function myFunction03() {
-                  var dots = document.getElementById("dots03");
-                  var moreText = document.getElementById("more03");
-                  var btnText = document.getElementById("myBtn03");
-
-                  if (dots.style.display === "none") {
-                      dots.style.display = "inline";
-                      btnText.innerHTML = "Read more";
-                      moreText.style.display = "none";
-                  } else {
-                      dots.style.display = "none";
-                      btnText.innerHTML = "Read less";
-                      moreText.style.display = "inline";
-                  }
-              }
-          </script>
       </div>
   </section>
 

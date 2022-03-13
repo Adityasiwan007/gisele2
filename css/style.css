@@ -2119,6 +2119,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
   margin-bottom: 20px;
   color: rgb(0,113,227);
+  text-align: center;
 }
 #MeetGisele {
   position: relative;
@@ -3084,7 +3085,7 @@ ul.caption-slides li {
   position:absolute;display:block;top:0;z-index:0;bottom:0;width:100%;
   background-size:cover;background-repeat:no-repeat;background-position:top
 }
-@media (max-width:992px){
+@media (max-width:768px){
   .image-column:before {
     position: absolute;
     content: '';
@@ -3097,7 +3098,7 @@ ul.caption-slides li {
   }
 }
 
-@media (min-width:992px)
+@media (min-width:768px)
 {
   .section-half-background-image-container .image-column
   {
@@ -3108,8 +3109,15 @@ ul.caption-slides li {
 .section-half-background-image-container .text-column{position:relative;z-index:3}
 
 .text-column{position:relative;z-index:3}.section-label{display:none}@media (min-width:992px){.section-label{display:flex;color:#fff;font-size:7em;font-family:Abril Fatface,Times New Roman,Times,serif;position:absolute;left:50%;z-index:2;top:0;height:100%;text-transform:uppercase;align-items:center}.section-label p{width:260px;margin-left:-130px;word-break:break-all}}
-
-@media (min-width: 768px) {
+@media (min-width: 1068px) {
   .col-md-offset-4{margin-left:75%}
 }
-
+@media (min-width: 868px) and (max-width: 1068px) {
+  .col-md-offset-4{margin-left:70%}
+}
+@media (min-width: 768px) and (max-width: 868px) {
+  .col-md-offset-4{margin-left:65%}
+}
+.font-bold{
+  font-weight: bold;
+}

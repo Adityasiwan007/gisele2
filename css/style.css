@@ -3133,3 +3133,9 @@ ul.caption-slides li {
 .font-bold{
   font-weight: bold;
 }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

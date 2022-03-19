@@ -2436,7 +2436,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     line-height: 30px;
     font-weight: 400;
     top: 50%;
-    text-align: left;!important;
+    text-align: left;
     width: 100%;
   }
   .white-border-button {
@@ -3122,7 +3122,7 @@ ul.caption-slides li {
     margin: auto;
   }
 }
-@media (min-width: 768px) and (max-width: 868px) {
+@media (min-width: 768px) and (max-width: 768px) {
   .col-md-offset-4{margin-left:65%}
   #press_card{
     max-width: 100%;
